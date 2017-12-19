@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Upwork tasks</title>
+      <link rel="stylesheet" type="text/css" href="app.css">
+   </head>
+   <body>
+      <div class="container">
+         <h3>User Form</h3>
+         <div>
+            <form id="userForm">
+                  <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" value="" placeholder="Aladin" />
+                        <span class="name error-msg"></span>
+                  </div>      
+                  <div class="form-group">
+                        <label for="address1">Address1</label>
+                        <input type="text" name="address1" value="" placeholder="45th street london" />
+                        <span class="address1 error-msg"></span>                        
+                  </div>
+                  <div class="form-group">
+                        <label for="address2">Address2</label>
+                        <input type="text" name="address2" value="" placeholder="67th floor, Lane park UAE" />
+                        <span class="address2 error-msg"></span>                        
+                  </div>
+                  <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" name="city" value="" placeholder="Berlin" />
+                        <span class="city error-msg"></span>                        
+                  </div>
+                  <div class="form-group">
+                        <label for="state">State</label>
+                        <select name="state"> 
+                          <option value="">Select State</option> 
+                          <option value="NY">NY</option> 
+                          <option value="CA">CA</option>
+                          <option value="LS">LS</option>
+                        </select>
+                        <span class="state error-msg"></span>                                                
+                  </div>
+                  <div class="form-group">
+                        <label for="zip_code">Zip Code</label>
+                        <input type="text" name="zip_code" value="" placeholder="54000" />
+                        <span class="zip_code error-msg"></span>                        
+                  </div>
+
+                  <div class="form-actions">
+                        <button type="button" id="okBtn" onclick="app.validateForm()">Ok</button>
+                        <button type="button" id="cancelBtn" onclick="app.resetForm()">Cancel</button>
+                  </div>
+            </form>
+         </div>
+      </div>
+
+      <div id="scripts">
+            <script src="app.js"></script>            
+      </div>
+   </body>
+</html>
