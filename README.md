@@ -6,9 +6,7 @@ https://drive.google.com/file/d/1lLj4_y_F3VZxkb2QCE39O7M2zBmx5qlT/view?usp=shari
 
 Each solution is separated with the block comment in app.js like 
 
-/*  
-* Solution: Problem2
-*/
+/* Solution: Problem2 */
 
 
 
@@ -31,7 +29,7 @@ Each solution is separated with the block comment in app.js like
 ### How does it work?
 
   For server please follow the steps below. 
-  For client Just run the HTML file directly in your browser or you can use any webserver. 
+  For client Just run the index.HTML file in the root directory directly in your browser or you can use any webserver. 
 
 
 ### A brief description/representation of the architecture
